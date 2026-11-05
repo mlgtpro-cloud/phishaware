@@ -1,11 +1,21 @@
-
+# Virtual environments
 .venv/
 venv/
+ 
+# Python
 __pycache__/
 *.pyc
+ 
+# Secrets and local config
 .env
 .env.*
 !.env.example
+ 
+# Flask
 instance/
+ 
+# Editors / OS
 .vscode/
-
+.idea/
+.DS_Store
+Thumbs.db
